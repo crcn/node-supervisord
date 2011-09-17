@@ -1,6 +1,6 @@
 ### What's this?
 
-A node.js library for [Supervisord](http://supervisord.org/). If you're not familiar with supervisord (You should because it's awesome), it controls processes, and it's much like [forever](https://github.com/indexzero/forever), [launchd](http://en.wikipedia.org/wiki/Launchd), upstart+monit, etc. 
+A node.js library for [supervisord](http://supervisord.org/). If you're not familiar with supervisord (You should because it's awesome), it controls processes, and it's much like [forever](https://github.com/indexzero/forever), [launchd](http://en.wikipedia.org/wiki/Launchd), upstart+monit, etc. 
 
 
 ### Requirements
@@ -22,16 +22,16 @@ A node.js library for [Supervisord](http://supervisord.org/). If you're not fami
 
 	var supervisord = require('supervisord');
 
-	var upstart = supervisord.connect('http://localhost:9001');
+	var client = supervisord.connect('http://localhost:9001');
 
 
-	upstart.startProcess('my-app', function(err, result)
+	client.startProcess('my-app', function(err, result)
 	{
 		
 	});
 	
 	//return all running processes by supervisord
-	upstart.getAllProcessInfo(function(err, result)
+	client.getAllProcessInfo(function(err, result)
 	{
 		console.log(result);
 
@@ -56,10 +56,8 @@ A node.js library for [Supervisord](http://supervisord.org/). If you're not fami
 ```
 
 
-### [Supervisor Methods](http://supervisord.org/api.html?highlight=api):
+### [Available Methods](http://supervisord.org/api.html?highlight=api):
 
-starred is unimplemented
-	
 - getSupervisorVersion()
 - getIdentification()
 - getState()
