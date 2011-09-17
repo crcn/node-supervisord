@@ -7,5 +7,10 @@
         "type": "git",
         "url": "http://github.com/spiceapps/supervisord.git"
     },
-    "main": "lib/index"
+    "dependencies": {
+        "structr":"*",
+        "xmlrpc":"*"
+        
+    },
+    "main": "./lib/index"
 }
