@@ -3,6 +3,18 @@
 A [Supervisord](http://supervisord.org/) library for node.js. If you're not familiar with supervisord (You should because it's awesome), it controls processes, and it's much like [forever](https://github.com/indexzero/forever), [launchd](http://supervisord.org/glossary.html#term-launchd), upstart+monit, etc. 
 
 
+### Requirements
+
+
+- Node.js 
+- Supervisord 
+- NPM
+
+### Installation
+
+	npm install supervisord
+
+
 ### Example:
 
 
