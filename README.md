@@ -1,8 +1,7 @@
-(Supervisord)[http://supervisord.org/] library for node.js
+[Supervisord](http://supervisord.org/) library for node.js
 
 
-(Supervisor Methods)[http://supervisord.org/api.html?highlight=api]:
---------
+### [Supervisor Methods](http://supervisord.org/api.html?highlight=api):
 
 * is unimplemented
 	
