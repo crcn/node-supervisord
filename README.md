@@ -1,6 +1,6 @@
 ### What's this?
 
-A [Supervisord](http://supervisord.org/) library for node.js. If you're not familiar with supervisord (You should because it's awesome), it controls processes, and it's much like [forever](https://github.com/indexzero/forever), [launchd](http://supervisord.org/glossary.html#term-launchd), upstart+monit, etc. 
+A node.js library for [Supervisord](http://supervisord.org/). If you're not familiar with supervisord (You should because it's awesome), it controls processes, and it's much like [forever](https://github.com/indexzero/forever), [launchd](http://supervisord.org/glossary.html#term-launchd), upstart+monit, etc. 
 
 
 ### Requirements
@@ -60,13 +60,13 @@ A [Supervisord](http://supervisord.org/) library for node.js. If you're not fami
 
 starred is unimplemented
 	
-- getSupervisorVersion()*
-- getIdentification()*
-- getState()*
-- getPID()*
-- readLog()*
-- clearLog()*
-- shutdown()*
+- getSupervisorVersion()
+- getIdentification()
+- getState()
+- getPID()
+- readLog()
+- clearLog()
+- shutdown()
 - restart()*
 
 - startProcess(name)
@@ -76,7 +76,7 @@ starred is unimplemented
 - startProcessGroup()
 - stopProcessGroup()
 - sendProcessStdin()
-- sendRemoteCommEvent()*
+- sendRemoteCommEvent()
 - addProcessGroup(name)
 - removeProcessGroup(name)
 - readProcessStdoutLog(name)
