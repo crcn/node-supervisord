@@ -1,6 +1,31 @@
 [Supervisord](http://supervisord.org/) library for node.js
 
 
+Example:
+--------
+
+
+```javascript
+
+	var supervisord = require('supervisord');
+
+	var upstart = supervisord.connect('http://localhost:9001');
+
+
+	upstart.startProcess('my-app', function(err, result)
+	{
+		
+	});
+	
+
+	upstart.getAllProcessInfo(function(err, result)
+	{
+		
+	});
+
+```
+
+
 ### [Supervisor Methods](http://supervisord.org/api.html?highlight=api):
 
 starred is unimplemented
@@ -32,26 +57,3 @@ starred is unimplemented
 - clearAllProcesssLogs()
 
 
-Example:
---------
-
-
-```javascript
-
-	var supervisord = require('supervisord');
-
-	var upstart = supervisord.connect('http://localhost:9001');
-
-
-	upstart.startProcess('my-app', function(err, result)
-	{
-		
-	});
-	
-
-	upstart.getAllProcessInfo(function(err, result)
-	{
-		
-	});
-
-```
