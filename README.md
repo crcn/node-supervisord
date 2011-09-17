@@ -65,8 +65,7 @@ A node.js library for [supervisord](http://supervisord.org/). If you're not fami
 - readLog()
 - clearLog()
 - shutdown()
-- restart()*
-
+- restart()
 - startProcess(name)
 - getAllProcessInfo(name)
 - startProcess(name)
