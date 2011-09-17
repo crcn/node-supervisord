@@ -3,33 +3,33 @@
 
 ### [Supervisor Methods](http://supervisord.org/api.html?highlight=api):
 
-* is unimplemented
+starred is unimplemented
 	
-	- getSupervisorVersion()*
-	- getIdentification()*
-	- getState()*
-	- getPID()*
-	- readLog()*
-	- clearLog()*
-	- shutdown()*
-	- restart()*
-	
-	- startProcess(name)
-	- getAllProcessInfo(name)
-	- startProcess(name)
-	- startAllProcesses()
-	- startProcessGroup()
-	- stopProcessGroup()
-	- sendProcessStdin()
-	- sendRemoteCommEvent()*
-	- addProcessGroup(name)
-	- removeProcessGroup(name)
-	- readProcessStdoutLog(name)
-	- readProcessStderrLog(name, offset, length)
-	- tailProcessStdoutLog(name, offset, length)
-	- tailProcessStderrLog(name, offset, length)
-	- clearProcessLogs(name)
-	- clearAllProcesssLogs()
+- getSupervisorVersion()*
+- getIdentification()*
+- getState()*
+- getPID()*
+- readLog()*
+- clearLog()*
+- shutdown()*
+- restart()*
+
+- startProcess(name)
+- getAllProcessInfo(name)
+- startProcess(name)
+- startAllProcesses()
+- startProcessGroup()
+- stopProcessGroup()
+- sendProcessStdin()
+- sendRemoteCommEvent()*
+- addProcessGroup(name)
+- removeProcessGroup(name)
+- readProcessStdoutLog(name)
+- readProcessStderrLog(name, offset, length)
+- tailProcessStdoutLog(name, offset, length)
+- tailProcessStderrLog(name, offset, length)
+- clearProcessLogs(name)
+- clearAllProcesssLogs()
 
 
 Example:
