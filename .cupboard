@@ -4,4 +4,4 @@ name = supervisord
 publish = npm publish --force, git add ., git commit -m "$@", git push origin master
 rm = git rm -r $@
 ignore = echo $@ >> .gitignore
-github=https://github.com/spiceapps/supervisord
+github=open https://github.com/spiceapps/supervisord
