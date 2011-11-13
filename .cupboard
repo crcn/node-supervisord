@@ -1,7 +1,2 @@
-[project]
-name = supervisord
 [commands]
-publish = npm publish --force, git add ., git commit -m "$@", git push origin master
-rm = git rm -r $@
-ignore = echo $@ >> .gitignore
-github=open https://github.com/spiceapps/supervisord
+proj = open project.tmproj
