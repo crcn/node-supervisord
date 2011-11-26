@@ -5,7 +5,7 @@
     "author": "Craig Condon",
     "repository": {
         "type": "git",
-        "url": "http://github.com/spiceapps/supervisord.git"
+        "url": "http://github.com/crcn/supervisord.git"
     },
     "dependencies": {
         "structr":"*",
