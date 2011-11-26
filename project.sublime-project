@@ -2,7 +2,22 @@
 	"folders":
 	[
 		{
-			"path": "/Users/craig/.cupboard/projects/supervisord"
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name":"cbd make",
+			"cmd":["cbd","make","supervisord"]
+		},
+		{
+			"name":"cbd start",
+			"cmd":["cbd","start","supervisord"]
+		},
+		{
+			"name":"cbd make+start",
+			"cmd":["cbd","make+start","supervisord"]
 		}
 	]
 }
