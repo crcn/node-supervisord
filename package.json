@@ -1,16 +1,15 @@
 {
-    "name": "supervisord",
-    "description": "Supervisord library for node.js",
-    "version": "0.0.3",
-    "author": "Craig Condon",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/crcn/supervisord.git"
-    },
-    "dependencies": {
-        "structr":"*",
-        "xmlrpc":"*"
-        
-    },
-    "main": "./lib/index"
+  "name": "supervisord",
+  "description": "Supervisord library for node.js",
+  "version": "0.0.3",
+  "author": "Craig Condon",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/crcn/supervisord.git"
+  },
+  "dependencies": {
+    "structr": "*",
+    "xmlrpc": "*"
+  },
+  "main": "./lib/index"
 }
