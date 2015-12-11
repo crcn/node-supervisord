@@ -82,5 +82,7 @@ A node.js library for [supervisord](http://supervisord.org/). If you're not fami
 - tailProcessStderrLog(name, offset, length)
 - clearProcessLogs(name)
 - clearAllProcesssLogs()
+- signalProcess(name, signal)
+- signalProcessGroup(name, signal)
 
 
