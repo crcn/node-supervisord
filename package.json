@@ -1,7 +1,7 @@
 {
   "name": "supervisord",
   "description": "Supervisord library for node.js",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "author": "Craig Condon",
   "repository": {
     "type": "git",
